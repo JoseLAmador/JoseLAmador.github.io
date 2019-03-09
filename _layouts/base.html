@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ 'main.css' | prepend: site.assets.css }}">
-    <title>Personal - Portfolio</title>
+    <title>Jose Amador - Portfolio</title>
 </head>
 
 <body>
@@ -16,6 +20,17 @@
     </main>
 
     {% include footer.html %}
+
+    <script>
+        var typed = new Typed('.element', {
+            strings: ["Web Developer"],
+            typeSpeed: 100,
+            starDelay: 200,
+            backDelay: 600,
+            loop: true,
+            showCursor: false,
+        });
+    </script>
 
 </body>
 
