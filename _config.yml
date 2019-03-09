@@ -1,0 +1,22 @@
+# Jekyll configuration
+
+baseurl: ""
+url: "https://JoseLAmador.github.io"
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+exclude: [
+  README.md,
+  .gitignore,
+  Gemfile,
+  Gemfile.lock
+]
+
+#Alias to directories
+assets:
+    css: /assets/css/
+
+#SASS CONFIGURATION
+
+sass:
+  sass_dir: assets/_scss
+  style: :compressed
